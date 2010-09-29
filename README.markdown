@@ -11,3 +11,7 @@ Download this source - [zip](http://github.com/donnfelker/mdc10/zipball/master)
 * AsyncTask's
 * ProgressDialog's
 * ProgressMeter's
+
+
+###Keystore
+Demo keystore password: "testtest"
