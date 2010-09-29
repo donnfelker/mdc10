@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">MDC10</string>
+	<string name="app_about">This application was built during the MDC10 Android presentation.</string>
+	<string name="splash_website_button_text">MDC10 Website</string>
+	<string name="splash_contact_button_text">Contact</string>
+	<string name="splash_tweets_button_text">MDC10 Tweets</string>
+	<string name="menu_about">About</string>
+	
+	<!--  About Dialog -->
+	<string name="about_dialog_title">About</string>
+	<string name="about_dialog_message">This app was created by Donn Felker during the MDC10 Android presentation.</string>
+	<string name="about_dialog_positive_dialog">Close</string>
+	
+</resources>

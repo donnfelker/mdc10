@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		<RelativeLayout
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content">
+		 <ImageView 
+		 	android:id="@+id/contactHeader"
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"
+		  	android:src="@drawable/logo"
+		  	android:layout_gravity="center_horizontal"
+		  	android:padding="10dip"
+		  	android:layout_marginTop="50dip"
+		  	android:layout_marginBottom="25dip" />
+		  <TextView 
+		     	android:id="@+id/subject_id"
+		       android:layout_width="fill_parent" 
+		       android:layout_height="wrap_content"
+		       android:layout_centerHorizontal="true"
+		       android:text="Subject"
+		       android:layout_below="@id/contactHeader" />
+		     <EditText android:id="@+id/subject"
+		     	android:layout_width="fill_parent"
+		     	android:layout_height="wrap_content"
+		     	android:inputType="textEmailSubject|textAutoComplete" 
+		     	android:layout_below="@+id/subject_id"/>
+		     <TextView 
+		     	android:id="@+id/message_id"
+		     	android:layout_below="@id/subject"
+		       android:layout_width="fill_parent" 
+		       android:layout_height="wrap_content"
+		       android:layout_centerHorizontal="true"
+		       android:text="Message"
+		     />
+		     <EditText android:id="@+id/message"
+		     	android:layout_below="@+id/message_id"
+		     	android:layout_width="fill_parent"
+		     	android:layout_height="wrap_content"
+		     	android:singleLine="false"
+		     	android:lines="5"
+		     	android:gravity="top"
+		     	android:inputType="textMultiLine" />
+		     <Button android:id="@+id/sendButton"
+		     	android:layout_width="fill_parent"
+		     	android:layout_height="wrap_content"
+		     	android:layout_below="@+id/message"
+		     	android:text="Send" />
+		</RelativeLayout>
+</ScrollView>		

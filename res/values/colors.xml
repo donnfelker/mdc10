@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- General Colors -->
+	<color name="default_background">#ffffff</color>
+	<color name="default_text">#005580</color>
+
+	<!-- Button Colors -->
+	<color name="button_default_start_gradient">#fbad17</color>
+	<color name="button_default_end_gradient">#fee597</color>
+	<color name="button_default_border">#de9200</color>
+	
+	<color name="button_pressed_start_gradient">#a6dcf7</color>
+	<color name="button_pressed_end_gradient">#6fb8db</color>
+	<color name="button_pressed_border">#79bfe0</color>
+
+	<color name="focus_button_background">#d0cbff</color>
+
+</resources>
