@@ -8,3 +8,6 @@ Download this source - [zip](http://github.com/donnfelker/mdc10/zipball/master)
 * Twitter integration via jTwitter.jar
 * Loading a webpage with the WebView
 * AlertDialog
+* AsyncTask's
+* ProgressDialog's
+* ProgressMeter's
